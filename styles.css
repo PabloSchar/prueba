@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(29, 28, 28);
+  height: 30vh;
+  color: rgb(245, 240, 240);
+  text-align: center;
+  padding: 30px;
+}
+header h1 {
+  font-size: 50px;
+  color: orange;
+}
+
+main {
+  padding: 200px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+main p {
+  font-size: 20px;
+}
+main button {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  color: orange;
+}
+main img {
+  border-radius: 60px;
+}

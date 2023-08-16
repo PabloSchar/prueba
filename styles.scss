@@ -1,0 +1,40 @@
+@import "variables";
+
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: $color-oscuro;
+    height: 30vh;
+    color: $color-claro;
+    text-align: center;
+    padding: 30px;
+    h1 {
+        font-size: $fuente-grande;
+        color: $color-principal;
+    }
+}
+
+main {
+    padding: 200px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: $fuente-chica;
+    }
+    button{
+        width: 90px;
+        height: 30px;
+        border-radius: 5px;
+        color: $color-principal;
+    }
+    img{
+        border-radius: 60px;
+    }
+}
